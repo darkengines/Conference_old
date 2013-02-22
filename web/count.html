@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type='text/javascript'>
+            function updateCount(c) {
+                    document.getElementById('count').innerHTML = c;
+                    parent.hidden.location.href = "test?t=2";
+            };
+        </script>
+    </head>
+    <body>
+	<h3>Comet Example: Counter with Hidden Frame</h3>
+	<p>
+            <b id="count">&nbsp;</b>
+	</p>
+    </body>
+</html>
