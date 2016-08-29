@@ -14,7 +14,7 @@ and open the template in the editor.
             root
         </user>
         <password>
-            2701104$reg2rt
+            pass
         </password>
         <driver>
             com.mysql.jdbc.Driver
