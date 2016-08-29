@@ -27,6 +27,6 @@ public class Database {
     }
     private Database() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
-        this.connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/conference", "root", "2701104$reg2rt");
+        this.connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/conference", "root", "pass");
     }
 }
